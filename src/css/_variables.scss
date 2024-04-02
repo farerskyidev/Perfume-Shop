@@ -1,0 +1,31 @@
+
+.container {
+    padding: 0 15px;
+    @media (min-width: 1440px) {
+        width: 1270px;
+        margin: auto;
+    }
+}
+.container__footer {
+    padding: 0 15px;
+    @media (min-width: 1920px) {
+        max-width: 1730px;
+        margin: auto;
+    }
+}
+.d-flex {
+    display: flex;
+} 
+.gap-180 {
+    column-gap: 180px;
+} 
+
+$black-color: #000;  
+$white-color: #fff;   
+$white-smoke-color: #f5f6f6; 
+$gray-22-color: #383838; 
+$gray-80-color: #ccc;
+$davys-gray-color: #555555;
+$platinum-color: #E5E5E5;
+$old-heliotrope-color: #4D2952;
+$dark-vanilla-color: #FFE8F0;
