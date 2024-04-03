@@ -1,11 +1,12 @@
 import React from "react"
 import Header from './components/Header/Header';
+import Banner from './components/Banner/Banner';
 import Footer from './components/Footer/Footer';
 import Button from "./components/Button";
 import Users from "./components/Users";
 import AddUser from "./components/AddUser";
 
-class App extends React.Component { 
+class App extends React.Component {  
   constructor(props) {
     super(props)
     this.state = { 
@@ -53,6 +54,8 @@ class App extends React.Component {
     return (
       <div>
         <Header title="Header"/>
+
+        <Banner title="Banner"/>
         
         <main className="main">
           <div className="container main__wrap">

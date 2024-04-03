@@ -1,14 +1,14 @@
 @import '../../css/_variables.scss'; 
 
 .header {
-    background-color: $white-color;  
+    background-color: $white-color;   
     .top_header {
         background-color: $old-heliotrope-color; 
         padding: 12px 0;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        
+        color: $white-color;
             .top_header_links {
                 column-gap: 17px;
                 display: flex;

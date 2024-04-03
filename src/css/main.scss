@@ -8,7 +8,7 @@
 
 body {
     
-    color: $white-color;
+    // color: $white-color;
     font-family: 'Roboto', sans-serif;
 }
 .col-4 {
@@ -17,9 +17,35 @@ body {
 
 .main {
     background-color: $davys-gray-color;  
+    color: $white-color;
     &__wrap {
         display: flex;
     }
+}
+.swiper-button-prev:after, .swiper-button-next:after {
+    background-color: $white-smoke-color;
+    height: 95px;
+    color: $black-color;
+    font-size: 12px;
+    width: 34px;
+    align-items: center;
+    display: flex;
+    justify-content: center; 
+}
+.swiper-slide.swiper-slide-active {
+    a {
+        position: absolute;
+        bottom: 15%;
+        left: 20%;
+        background-color: $shattan-gold;
+        padding: 14.5px 51px;
+        color: $white-color;
+        text-decoration: none;
+    }
+}
+.swiper-backface-hidden .swiper-slide {
+    height: 387px;
+    width: 100%;
 }
 .aside {
     width: 30%;
